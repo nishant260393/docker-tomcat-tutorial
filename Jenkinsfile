@@ -6,7 +6,7 @@ node {
     }
     stage ('Build Docker Image') {
         /* This builds the actual image; synonymous to  * docker build on the command line */
-        app = docker.build("senthil123/mytomcat")
+        app = docker.build("0226ns/tomcat")
     }
     stage('Test Docker Image') {
         /* Ideally, we would run a test framework against our image. * For this example, we're using a Volkswagen-type approach ;-) */
