@@ -1,4 +1,4 @@
-FROM jenkinsci/blueocean
+FROM jenkins/jenkins:lts
 LABEL MAINTAINER="nishant"
 USER root
 WORKDIR /opt
